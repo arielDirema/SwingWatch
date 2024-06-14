@@ -8,8 +8,8 @@ public class ModificationMinute implements Etat{
 
     @Override
     public void appuyerBouton1(Montre montre) {
-        System.out.println("etat affichage");
-        montre.setEtatCourant(new Affichage());
+        System.out.println("etat modification secondes");
+        montre.setEtatCourant(new ModificationSecondes());
     }
 
     @Override
